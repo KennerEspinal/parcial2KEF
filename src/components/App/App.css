@@ -1,0 +1,14 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #22333B;
+}
+
+h1 {
+    color: #ffebcd;
+    font-family: "";
+    font-size: 65px;
+}
