@@ -8,7 +8,7 @@ export const WinnerBoard = ({ winners }) => {
         <ul>
           {winners.map((winner, index) => (
             <li key={index} style={{ margin: "10px 0", fontSize: "18px", color: "#ffebcd" }}>
-              Ganador: {winner.name} - fecha: {winner.fecha}
+              Ganador: {winner.winner} - fecha: {winner.fecha}
             </li>
           ))}
         </ul>
